@@ -1,4 +1,15 @@
 //for loops
+//loop are basically three types 
+//1.for-loop
+   //condition check-before ,
+//2.while loop
+    //condition check before
+//3.do while loop
+    //condition check after , at least run once
+//4.for-each loop (bonus)
+
+
+
 Public class Loops {
   Public static void main(String args[]){
     for(int counter = 0; counter< 3;counter++){
