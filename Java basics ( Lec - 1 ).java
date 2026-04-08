@@ -76,8 +76,8 @@ Scanner Float = sc.nextFloat();// for floating value
 
 //Example 
 Scanner sc = new Scanner (System.in);
-int a = sc.nextint();
-int b = sc.nextint();
+int a = sc.nextInt();
+int b = sc.nextInt();
 int sum = a + b;
 System.out.println(sum); 
 
