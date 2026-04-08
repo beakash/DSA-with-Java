@@ -1,5 +1,7 @@
-//output in java
+//BASIC JAVA+DSA CONCEPT
 
+//output in java
+//printing output in same line
 System.out.print("Hello World");
 System.out.print("Hello world with Java "); 
 
@@ -8,6 +10,8 @@ System.out.print("Hello world with Java ");
 //For print in next line in two ways 
 
 //1st way
+//printing output in diffeerent line
+
 System.out.Println("Hello World");
 System.out.Println("Hello World with Java ");
 
