@@ -28,3 +28,10 @@ do {
 }
   while (i<11);
 }
+//sum of First n Natural NUmmbers
+int sum = 0;
+for(int i = 1; i <= n; i++){
+  sum = sum + i;
+} 
+print(sum);
+}
