@@ -1,4 +1,10 @@
 //patterns implemented by nested loop
+//Rules of pattern problem
+//1.Always think row wise
+//2.Count spaces and symbols
+//3.Observe relation between i and j
+//4.Break pattern into parts
+
 //Pattern 1
 /* *****
    *****
