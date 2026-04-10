@@ -229,5 +229,182 @@ public class Patterns {
    }
 }
 
+//pattern 10
+/* *             *
+   * *         * *
+   * * *     * * *
+   * * * * * * * *
+   * * * * * * * *
+   * * *     * * *
+   * *         * *
+   *             *     */
+                   
+//code
+import java.util.*;
 
+public class Solutions {
+  public static void main(String args[]){
+    int n = 4;
+     //upper part
+    for(int i = 1; i<=n; i++){
+      for(int j = 1; j<=i; j++){
+        System.out.print("*");
+      }
+      int spaces = 2 * (n - i);
+      for(int j = 1; j<=spaces; j++) {
+        System.out.print(" ");
+      }
+      for(int j=1; j<=i; j++) {
+        System.out.print("*");
+      }
+      System.out.println();
+    } 
+   //Lower part
+    for(int i=n; i>=1; i--){
+      for(int j=1; j<=i; j++){
+        System.out.print("*");
+      }
 
+      int spaces = 2 * (n-i);
+      for(int j=1; j<=spaces; j++){
+        System.out.print(" ");
+      }
+
+      for(int j=1; j<=i; j++){
+        System.out.print("*");
+      }
+      System.out.println();
+    }
+  }
+}
+
+//pattern 11 
+        *****
+      *****
+    *****
+  *****
+***** 
+
+import java.util.*;
+
+public class solutions {
+  public static void main(String args[]){
+    int n = 5;
+
+    for(int i= 1; i<=n; i++){
+      //spaces 
+      for(int j=1; j<=n-i; j++){
+        System.out.print(" ");
+      }
+      //stars 
+      for(int j =1; j<=n; j++) {
+        System.out.print("*");
+      }
+      System.out.println();
+    }
+  }
+}
+
+//pattern 12
+
+    1
+   2 2                     
+  3 3 3
+ 4 4 4 4
+5 5 5 5 5 
+
+  // code
+
+  import java.util.*;
+public class Solutions{
+  public static void main(String args[]){
+    int n = 5;
+
+  for(int i=1; i<=n; i++){
+    //spaces
+    for(int j = 1; j<=n-i ; j++) {
+      System.out.print(" ");
+    }
+
+    //numbers
+    for(int j=1; j<=i ; j++){
+      system.out.print(i+" ");
+    }
+    System.out.println();
+  }
+  }
+} 
+
+//pattern 13
+
+          1
+        2 1 2
+      3 2 1 2 3
+    4 3 2 1 2 3 4
+  5 4 3 2 1 2 3 4 5
+//code
+
+import java.util.*;
+
+public class Solutions{ 
+  public static void main(string args[]){
+    int n = 5;
+    for(int i=1; i<=n; i++){
+       //spaces
+      for(int j=1; j<=n-1; j++) {
+        System.out.print(j);
+      }
+
+      //first part
+      for(int j=i; j>=1;j--){
+        System.out.print(j);
+      }
+      //Second part
+      for(int j=2; j<=i; j++) {
+        System.out.print(j);
+      }
+      System.out.println();
+    }
+  }
+} 
+
+//pattern 14
+
+    *
+   ***
+  *****
+ *******
+ *******
+  *****
+   ***
+    *
+//upper part
+import java.util.*;
+
+public class Solutions{
+  public static void main(String args[]) {
+    int n = 5;
+
+  //upper part
+  for(int i=1; i<=n; i++) {
+    //spaces
+    for(int j =1; j<=n -i; j++){
+      System.out.print(" ");
+    }
+    for(int j = 1; j<=2*i-1; j++){
+      System.out.print("*");
+    }
+    System.out.println();
+  }
+
+  //lower part
+  for(int i=n ; i>=1 ;i--){
+
+    //spaces
+    for(int j = 1; j<=n-1; j++){
+      system.out.print("*");
+    }
+    System.out.println();
+  }
+  }
+}
