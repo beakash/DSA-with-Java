@@ -111,23 +111,26 @@ public class Patterns {
 //code
 import java.util.*;
 
-
 public class Patterns {
    public static void main(String args[]) {
        int n = 4;
       
-       for(int i=n; i>=1; i--) {
-           for(int j=1; j<i; j++) {
+       for(int i = n; i >= 1; i--) {
+
+           // spaces
+           for(int j = 1; j <= i - 1; j++) {
                System.out.print(" ");
            }
 
-
-           for(int j=0; j<=n-i; j++) {
+           // stars
+           for(int j = 1; j <= n - i + 1; j++) {
                System.out.print("*");
            }
+
            System.out.println();
        }
    }
+}
 //Pattern 6
   1
   12
