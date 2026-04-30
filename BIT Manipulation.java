@@ -10,7 +10,7 @@ public class Bits{
     if(bitMask & n) == 0) {
       System.out.println("bit was zero");
     }else{
-      System.out.println("bit was one "1);
+      System.out.println("bit was one ");
     }
   }
 }
