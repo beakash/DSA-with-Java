@@ -1,5 +1,14 @@
-//Get Bit 
+//Types of Bits
+// 1.Get : To find bit
+// 2.Set : If there is 0 then it makes 1 if 1 it
+// 3.Clear
+// 4.Update 
 
+
+//Get Bit 
+//Get the 3rd bit (position = 2) of a number n. (n = 0101)
+//Bit Mask : 1<<i
+//Operation : AND
 import java.util.*;
 public class Bits{
   public static void main(String args[]){
@@ -16,6 +25,9 @@ public class Bits{
 }
 
 //Set Bit 
+//Set the 2nd bit (position = 1) of a number n. (n=0101)
+//Bit Mask : 1<<i
+//Operation : OR
 import java.util.* 
 
 public class Bits {
@@ -30,6 +42,9 @@ public class Bits {
 } 
 
 //Clear Bit 
+//Clear the 3rd bit(position = 2) of a number n.(n = 0101)
+//Bit Mask : 1<<i
+//Operation : AND with NOT 
 import java.util.*;
 public class Bits {
   public Static void main(String args[]){
@@ -40,7 +55,11 @@ public class Bits {
     System.out.println(newNumber);
   }
 } 
-//Update 
+//Update Bit
+//Update the 2nd bit(position = 1) of a number n to 1.(n = 0101)
+//For 0                            //For 1
+//Bit Mask : 1<<i                  //Bit Mask : 1<<i
+//Operation : AND with NOT         //Operation : OR
 
 import java.util.*;
 
